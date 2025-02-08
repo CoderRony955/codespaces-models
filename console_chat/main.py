@@ -7,7 +7,7 @@ console = Console()
 
 endpoint = "https://models.inference.ai.azure.com"
 model_name = "Phi-3.5-MoE-instruct"
-token = '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'
+token = 'GITHUB_MODEL'
 
 client = ChatCompletionsClient(
     endpoint=endpoint,
